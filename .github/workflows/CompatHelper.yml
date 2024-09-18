@@ -14,3 +14,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           COMPATHELPER_PRIV: ${{ secrets.DOCUMENTER_KEY }}
         run: julia -e 'using CompatHelper; CompatHelper.main()'
+      - uses: actions/checkout@v4
+        with:
+          ref: 'keepalive'      # The branch, tag or SHA to checkout. 
+      - uses: bgctw/keepalive-workflow@master            
+      
+
