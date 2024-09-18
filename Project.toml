@@ -1,0 +1,7 @@
+name = "MCMCStreamTempering"
+uuid = "79eef340-7487-402b-b843-49b1c0a9a546"
+authors = ["Thomas Wutzler <twutz@bgc-jena.mpg.de> and contributors"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.6.7"
