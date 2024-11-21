@@ -3,5 +3,23 @@ uuid = "79eef340-7487-402b-b843-49b1c0a9a546"
 authors = ["Thomas Wutzler <twutz@bgc-jena.mpg.de> and contributors"]
 version = "1.0.0-DEV"
 
+[deps]
+AbstractMCMC = "80f14c24-f653-4e6a-9b94-39d6b0f70001"
+AdvancedMH = "5b7e9947-ddc0-4b3f-9b55-0d8042f74170"
+Aqua = "4c88cf16-eb10-579e-8560-4a9242c79595"
+ComponentArrays = "b0b7db55-cfe3-40fc-9ded-d10e2dbeff66"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+DynamicPPL = "366bfd00-2699-11ea-058f-f148b4cae6d8"
+JET = "c3a54625-cd67-489e-a8e7-0a5a0ff4e31b"
+Loess = "4345ca2d-374a-55d4-8d30-97f9976e7612"
+LogDensityProblems = "6fdf6af0-433a-55f7-b3ed-c6c6e0b8df7c"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+StableRNGs = "860ef19b-820b-49d6-a774-d7a799459cd3"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+Turing = "fce5fe82-541a-59a6-adf8-730c64b5f9a0"
+
 [compat]
-julia = "1.6.7"
+Aqua = "0.8.9"
+JET = "0.9.12"
+julia = "1.10"
